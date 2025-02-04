@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-03T04:50:46Z" name="Suite" finished-at="2025-02-03T04:51:04Z" duration-ms="17672">
+    <groups>
+    </groups>
+    <test started-at="2025-02-03T04:50:46Z" name="Test" finished-at="2025-02-03T04:51:04Z" duration-ms="17672">
+      <class name="com.eCommerce.testCases.TC_Menu">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.eCommerce.testCases.TC_Menu@3ec11999]" started-at="2025-02-03T04:50:52Z" name="setUp" finished-at="2025-02-03T04:50:56Z" duration-ms="4068" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpLogin()[pri:0, instance:com.eCommerce.testCases.TC_Menu@3ec11999]" started-at="2025-02-03T04:50:56Z" name="setUpLogin" finished-at="2025-02-03T04:50:58Z" duration-ms="1705" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpLogin -->
+        <test-method signature="menuCount()[pri:1, instance:com.eCommerce.testCases.TC_Menu@3ec11999]" started-at="2025-02-03T04:50:58Z" name="menuCount" finished-at="2025-02-03T04:51:03Z" duration-ms="5029" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- menuCount -->
+        <test-method is-config="true" signature="clickLogoutLnk()[pri:0, instance:com.eCommerce.testCases.TC_Menu@3ec11999]" started-at="2025-02-03T04:51:03Z" name="clickLogoutLnk" finished-at="2025-02-03T04:51:04Z" duration-ms="711" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickLogoutLnk -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.eCommerce.testCases.TC_Menu@3ec11999]" started-at="2025-02-03T04:51:04Z" name="teardown" finished-at="2025-02-03T04:51:04Z" duration-ms="329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.eCommerce.testCases.TC_Menu -->
+      <class name="com.eCommerce.testCases.TC_LoginPage">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.eCommerce.testCases.TC_LoginPage@5db99216]" started-at="2025-02-03T04:50:47Z" name="setUp" finished-at="2025-02-03T04:50:52Z" duration-ms="4911" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.eCommerce.testCases.TC_LoginPage@5db99216]" started-at="2025-02-03T04:50:52Z" name="setup" finished-at="2025-02-03T04:50:52Z" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="emptyCredentials()[pri:1, instance:com.eCommerce.testCases.TC_LoginPage@5db99216]" started-at="2025-02-03T04:50:52Z" name="emptyCredentials" finished-at="2025-02-03T04:50:52Z" duration-ms="591" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyCredentials -->
+      </class> <!-- com.eCommerce.testCases.TC_LoginPage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

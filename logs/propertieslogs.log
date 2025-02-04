@@ -1,0 +1,34 @@
+**********Before class method Start**********
+************Chrome Browser is initalized**************
+********Application URL is opened: ***********https://demo.guru99.com/V1/index.php
+**********Browser window is maximized**********
+******Test Case-1 Started empty userName/password**********
+****************click login button***************
+*******Starting to wait for alert...*********
+Waiting for the alert to be present...
+****Verifying alert message. Expected:****** User is not valid, Actual: User is not valid
+****Accepting the alert...******
+******Test Case-1 End Empty empty userName/password**********
+******Test Case-2 Started blank userName & valid password**********
+*********driver is invoked********
+********Password value is added********
+********click login button********
+*******Starting to wait for alert...*********
+Waiting for the alert to be present...
+****Verifying alert message. Expected:****** User is not valid, Actual: User is not valid
+****Accepting the alert...******
+******Test Case-2 End blank userName & valid password**********
+******Test Case-3 Started Valid userName & empty password**********
+*********Entered User Name********
+********click login button********
+*******Starting to wait for alert...*********
+Waiting for the alert to be present...
+****Verifying alert message. Expected:****** User is not valid, Actual: User is not valid
+****Accepting the alert...******
+******Test Case-3 End Valid userName & empty password**********
+******Test Case-4 Started Valid userName/password**********
+*********Entered User Name********
+*********Entered Password********
+*********Click Login Button********
+******Test Case-4 End Valid userName/password**********
+************Browser Closed*****************

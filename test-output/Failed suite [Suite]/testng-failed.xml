@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Suite]]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Smoke test(failed)(failed)">
+    <parameter name="browser" value="chrome"/>
+    <groups>
+      <run>
+        <include name="Smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.eCommerce.testCases.TC_LoginPage">
+        <methods>
+          <include name="ValidCredentials"/>
+        </methods>
+      </class> <!-- com.eCommerce.testCases.TC_LoginPage -->
+    </classes>
+  </test> <!-- Smoke test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->

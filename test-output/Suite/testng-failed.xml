@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.eCommerce.utilities.Listner"/>
+  </listeners>
+  <test thread-count="5" name="Menu Test Cases(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.eCommerce.testCases.TC_Menu">
+        <methods>
+          <include name="teardown"/>
+          <include name="clickLogoutLnk"/>
+          <include name="setUp"/>
+          <include name="setUpLogin"/>
+        </methods>
+      </class> <!-- com.eCommerce.testCases.TC_Menu -->
+    </classes>
+  </test> <!-- Menu Test Cases(failed) -->
+</suite> <!-- Failed suite [Suite] -->
